@@ -1,0 +1,7 @@
+--- 
+- !ruby/object:Side9Pige 
+  age: "19"
+  day: 2010-11-19
+  hometown: Herlev
+  name: Louise
+  photografer: Covermodel.dk
