@@ -1,0 +1,9 @@
+http://www.jklclothing.co.uk/pages/static/Embroidery_Printing.aspx
+
+http://www.logos4polos.com/PD/printing-embroidery/Sportswear-Printing/Sportswear-Embroidery/Pants-Printing/Pants-Embroidery/Alo-Sport/1580/ALO-Mens-Pant-Printing-Embroidery.aspx
+
+perl -e 'foreach $f (glob("*")){ print `mv \"$f\" \"Recue.Me.Season.1.$f\"`}'
+
+perl -e 'foreach $f (glob("File\\ Name*")) { $nf = $f; $nf =~ s/(\d+)$/sprintf("%03d",$1)/e; print `mv \"$f\" \"$nf\"`;}'
+
+perl -e 'foreach $f (glob("*")){ $nf = $f; $nf =~ s/Recue/Rescue/e; print `mv \"$f\" \"$nf\"`}'
